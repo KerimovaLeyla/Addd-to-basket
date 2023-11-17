@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: dashed;
+}
+
+header {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  background-color: transparent;
+}
+header nav {
+  width: 75%;
+  margin: auto;
+  height: 100px;
+}
+header #btn {
+  height: 50px;
+  background-color: #5d08fd;
+  width: 90px;
+  border-radius: 10%;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+header .menuItem {
+  display: none;
+}
+header .menuItem .collapseDiv .navItem {
+  font-size: 15px;
+  font-weight: 500px;
+}
+@media screen and (max-width: 991px) {
+  header header nav .menuItem {
+    display: block;
+  }
+}
+
+.search {
+  position: absolute;
+  transform: translateX(200px);
+  border: none;
+}
+
+.btn button {
+  border: none;
+}
+
+form {
+  width: 250px;
+  height: auto;
+}
